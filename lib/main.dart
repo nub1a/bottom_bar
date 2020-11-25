@@ -1,5 +1,6 @@
 import 'package:bottom_bar/home_page.dart';
 import 'package:bottom_bar/map_page.dart';
+import 'package:bottom_bar/splash.dart';
 import 'package:flutter/material.dart';
 
 void main() => runApp(App());
@@ -8,7 +9,7 @@ class App extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      home: MyBottomNavigationBar(),
+      home: SplashScreen(),
     );
   }
 }
